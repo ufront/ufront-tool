@@ -1,0 +1,13 @@
+{
+  "name": "ufront-tool",
+  "license": "MIT",
+  "classPath": "src",
+  "tags": ["ufront","web","cli","shell","interactive","neko"],
+  "description": "Helper tool for Ufront",
+  "contributors": ["jason"],
+  "releasenote": "Publish as separate lib",
+  "version": "1.0.0",
+  "url": "https://github.com/ufront/ufront-tool",
+  "dependencies": {
+  }
+}
