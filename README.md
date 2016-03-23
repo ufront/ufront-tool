@@ -1,7 +1,11 @@
 ufront-tool
 ======
 
-Ufront comes with a helper tool in haxelib. To run it:
+Ufront comes with a helper tool in haxelib. To install:
+
+    haxelib install ufront-tool
+	
+Then, to run it:
 
     haxelib run ufront-tool
 
