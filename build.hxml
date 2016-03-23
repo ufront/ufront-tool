@@ -1,0 +1,4 @@
+-cp src
+-main uftool.UFTool
+-neko run.n
+-lib mcli
