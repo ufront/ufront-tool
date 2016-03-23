@@ -133,13 +133,13 @@ class UFTool extends CommandLine {
 			default:
 				var content = "#!/bin/sh\n\nhaxelib run ufront-tool $@";
 				try {
-					sys.io.File.saveContent( "/usr/bin/ufront", content );
-					var exitCode = Sys.command( "chmod", "+x /usr/bin/ufront".split(" ") );
-					println( "Saved script to /usr/bin/ufront to redirect to `haxelib run ufront-tool` ");
+					sys.io.File.saveContent( "/usr/local/bin/ufront", content );
+					var exitCode = Sys.command( "chmod", "+x /usr/local/bin/ufront".split(" ") );
+					println( "Saved script to /usr/local/bin/ufront to redirect to `haxelib run ufront-tool` ");
 					exit( exitCode );
 				}
 				catch ( e:Dynamic ) {
-					println( "Failed to save to `/usr/bin/ufront`.  Perhaps you need to run with `sudo`?" );
+					println( "Failed to save to `/usr/local/bin/ufront`.  Perhaps you need to run with `sudo`?" );
 					exit(1);
 				}
 		}
