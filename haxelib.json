@@ -6,8 +6,8 @@
   "tags": ["ufront","web","cli","shell","interactive"],
   "description": "Helper tool for Ufront",
   "contributors": ["kevinresol","jason"],
-  "releasenote": "Publish as separate lib",
-  "version": "1.0.0",
+  "releasenote": "Fix haxelib's given cwd argument",
+  "version": "1.0.1",
   "url": "https://github.com/ufront/ufront-tool",
   "dependencies": {
       "mcli":""

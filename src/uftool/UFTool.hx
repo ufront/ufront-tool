@@ -151,7 +151,7 @@ class UFTool extends CommandLine {
 
 		var finalArg = args.pop();
 		var ufrontDir:String;
-		if ( finalArg!=null && FileSystem.exists("run.n") ) {
+		if ( finalArg!=null ) {
 			// Haxelib is weird.
 			// If this is called via "haxelib run ufront" (or "ufront" which as an alias for "haxelib run ufront"), then Haxelib will:
 			//  - Change the cwd to the ufront haxelib folder
